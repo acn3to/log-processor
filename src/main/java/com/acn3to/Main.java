@@ -1,7 +1,9 @@
 package com.acn3to;
 
+import com.acn3to.utils.LogFileGenerator;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        LogFileGenerator.generateLogFiles();
     }
 }
